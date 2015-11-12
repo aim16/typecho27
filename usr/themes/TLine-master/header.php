@@ -25,7 +25,7 @@
 				<span><?php $this->options->description(); ?></span>
 				<h1><?php $this->options->title(); ?></h1></a>
 				<nav class="menu">
-					<a href="/about.html" class="fa-user" data-info="关于">关于</a>
-					<a href="/archives.html" class="fa-history" data-info="归档">归档</a>
+					<a href="/index.php/about.html" class="fa-user" data-info="关于">关于</a>
+					<a href="/index.php/archives.html" class="fa-history" data-info="归档">归档</a>
 				</nav>
 			</header>
