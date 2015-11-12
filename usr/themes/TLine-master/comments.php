@@ -24,9 +24,9 @@
                 <?php if($this->user->hasLogin()): ?>
                 <p>登录为 <a href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName(); ?></a>. <a href="<?php $this->options->logoutUrl(); ?>" title="Logout"><?php _e('退出'); ?> &raquo;</a></p>
                 <?php else: ?>
-                  <input type="text" name="author" id="author" placeholder="称呼" value="<?php $this->remember('author'); ?>" />
-                  <input type="text" name="mail" id="mail" placeholder="电子邮件" value="<?php $this->remember('mail'); ?>" />
-                  <input type="text" name="url" id="url" placeholder="网站"  value="<?php $this->remember('url'); ?>" />
+                  <input type="text" name="author" id="author" placeholder="昵称 *" value="<?php $this->remember('author'); ?>" />
+                  <input type="text" name="mail" id="mail" placeholder="邮箱 *" value="<?php $this->remember('mail'); ?>" />
+                  <input type="text" name="url" id="url" placeholder="网址"  value="<?php $this->remember('url'); ?>" />
                 <?php endif; ?>
                 <p><textarea rows="5" name="text" id="comment" placeholder="在这里输入你的评论..." style="resize:none;"><?php $this->remember('text'); ?></textarea></p>
             <p><input type="submit" value="<?php _e('提交评论'); ?>" class="button" id="submit"></p>
