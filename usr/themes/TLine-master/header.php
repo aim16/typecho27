@@ -25,6 +25,7 @@
 				<span><?php $this->options->description(); ?></span>
 				<h1><?php $this->options->title(); ?></h1></a>
 				<nav class="menu">
+				    <a href="/index.php/msg.html" class="tmicon fa-comments" data-info="留言">留言板</a>
 					<a href="/index.php/about.html" class="fa-user" data-info="关于">关于</a>
 					<a href="index.php/search/27云空/" class="tmicon fa-search" data-info="搜索">搜索27云空</a>
 					<a href="/index.php/links.html" class="tmicon fa-send" data-info="友情链接">友情链接</a>
