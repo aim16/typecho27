@@ -16,10 +16,8 @@
             <?php $this->options->title(); ?>
         </a>
         Powered by
-        </a>
-        Azure for
         <a href="https://www.dreamspark.com/Product/Product.aspx?productid=99" target="_blank">
-        DreamSpark
+        Azure for DreamSpark
         </a>
 </blockquote>
 </div>
