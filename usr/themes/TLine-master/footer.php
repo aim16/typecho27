@@ -16,12 +16,10 @@
             <?php $this->options->title(); ?>
         </a>
         Powered by
-        <a href="http://www.typecho.org" target="_blank">
-            Typecho
         </a>
-        Azure
+        Azure for
         <a href="https://www.dreamspark.com/Product/Product.aspx?productid=99" target="_blank">
-        for dreamspark
+        DreamSpark
         </a>
 </blockquote>
 </div>
