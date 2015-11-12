@@ -26,6 +26,6 @@
 				<h1><?php $this->options->title(); ?></h1></a>
 				<nav class="menu">
 					<a href="/index.php/about.html" class="fa-user" data-info="关于">关于</a>
-					<a href="/index.php" class="fa-history" data-info="归档">归档</a>
+					<a href="/index.php/links.html" class="fa-history" data-info="友情链接">友情链接</a>
 				</nav>
 			</header>
